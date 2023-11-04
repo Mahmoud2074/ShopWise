@@ -1,0 +1,14 @@
+.nav-link{
+    color: black;
+    transition: 0.5s all;
+}
+
+.nav-link:hover{
+    color: var(--main_color);
+}
+
+
+.product_img {
+    height: 330px;
+}
+

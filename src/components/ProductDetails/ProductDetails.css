@@ -1,0 +1,14 @@
+
+
+.product_img_box{
+    height: 520px;
+}
+
+.product_img_box img{
+    height: 100%;
+    width: 100%;
+}
+
+.link_h {
+    margin-inline-end: 10px;
+}

@@ -1,0 +1,143 @@
+:root {
+    --main_color:rgb(255,50,77);
+  }
+
+.headdernav2{
+    width: 80%;
+    height: 50px;
+    margin: auto;
+    display: flex;
+}
+
+.header-left{
+    width: 50%;
+    height: 100%;
+}
+
+.d-flex{
+    width: 100%;
+    height: 100%;
+}
+
+
+.header-right{
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.login{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    transition: 0.5s all;
+    list-style: none;
+}
+
+.login li{
+    z-index: 9;
+}
+
+.login:hover{
+    color: var(--main_color);
+}
+
+.wishlist{
+    position: absolute;
+    right: 120px;
+    top: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    transition: 0.5s all;
+}
+
+.wishlist:hover{
+    color: var(--main_color);
+}
+
+
+/*///////////////////////////////////////////////////////////////////// @Media ////////////////////////////////////////////////////////////////*//*///////////////////////////////////////////////////////////////////// @Media ////////////////////////////////////////////////////////////////*/
+
+/*///////////////////////////////////////////////////////////////////// @Media ////////////////////////////////////////////////////////////////*//*///////////////////////////////////////////////////////////////////// @Media ////////////////////////////////////////////////////////////////*/
+
+
+/* Mobile */
+@media (min-width:300px) and (max-width:545px){
+    .headdernav2{
+        width: 80%;
+        height: 110px;
+        flex-direction: column;
+    }
+    
+    .header-left{
+        width: 100%;
+        height: 50%;
+    }
+    
+    .header-right{
+        width: 100%;
+        height: 50%;
+    }
+
+}
+
+
+
+/* Small Screens */
+@media (min-width:546px) and (max-width:920px){
+    .headdernav2{
+        width: 80%;
+        height: 50px;
+        margin: auto;
+        display: flex;
+    }
+    
+    .header-left{
+        width: 60%;
+        height: 100%;
+    }
+    
+    
+    .header-right{
+        width: 40%;
+        height: 100%;
+        position: relative;
+    }
+
+    .wishlist{
+        position: absolute;
+        right: 120px;
+        top: 10px;
+        text-decoration: none;
+        color: black;
+        font-size: 17px;
+        transition: 0.5s all;
+    }
+}
+
+
+
+
+
+
+/* Mobile */
+/* @media (min-width:300px) and (max-width:688px){
+    .headdernav2{
+        width: 100%;
+    }
+
+    .header-left{
+        width: 20%;
+    }
+    
+    .header-right{
+        width: 90%;
+    }
+} */
+
+
+

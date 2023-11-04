@@ -1,0 +1,222 @@
+.mystyle{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    z-index: 1;
+}
+
+
+.image-container{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.image-slider{
+    width: 100%;
+    height: 100%;
+}
+
+/* .image1{
+    background-color: rgb(144,131,129);
+}
+
+.image2{
+    background-color: rgb(233,163,65);
+}
+
+.image3{
+    background-color: rgb(255,228,211);
+} */
+
+
+
+
+.slider-details{
+    text-align: left;
+    width: 30%;
+    position: absolute;
+    top: 200px;
+    /* right: 900px; */
+}
+
+.slider-details p{
+    font-size: 20px;
+}
+
+.slider-details h1{
+    font-size: 50px;
+}
+
+
+
+
+
+
+.btn-one {
+    transition: all 0.3s;
+    position: relative;
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+  }
+  .btn-one span {
+    transition: all 0.3s;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .btn-one::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: var(--main_color);
+    border-bottom-color: var(--main_color);
+    transform: scale(0.1, 1);
+  }
+  .btn-one:hover span {
+    letter-spacing: 2px;
+    color: black;
+  }
+  .btn-one:hover::before {
+    opacity: 1; 
+    transform: scale(1, 1); 
+  }
+  .btn-one::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.3s;
+    background-color: rgba(255, 50, 77, 0.473);
+  }
+  .btn-one:hover::after {
+    opacity: 0; 
+    transform: scale(0.1, 1);
+  }
+  
+
+  .shopnow-slider{
+    display: none;
+}
+
+.carousel-control-prev{
+    margin-top: 250px;
+    padding: 20px;
+}
+
+.carousel-control-next{
+    margin-top: 250px;
+}
+  
+
+/*///////////////////////////////////////////////////////////////////// @Media ////////////////////////////////////////////////////////////////*//*///////////////////////////////////////////////////////////////////// @Media ////////////////////////////////////////////////////////////////*/
+
+
+/* Mobile */
+@media (min-width:300px) and (max-width:545px){
+    .mystyle{
+        display: flex;
+        width: 100%;
+        height: 750px;
+    }
+    .image-container{
+        width: 100%;
+        height: 30%;
+        margin: auto;
+    }
+    
+    .image-slider{
+        width: 100%;
+        height: 100%;
+    }
+
+    
+    .slider-details{
+        text-align: left;
+        width: 60%;
+        position: absolute;
+        top: 250px;
+        /* right: 900px; */
+    }
+    
+    .slider-details p{
+        font-size: 20px;
+    }
+    
+    .slider-details h1{
+        font-size: 40px;
+    }
+
+}
+
+
+
+
+/* Small Screens */
+@media (min-width:546px) and (max-width:920px){
+
+    .image-container{
+        width: 115%;
+        height: 100%;
+        margin: auto;
+    }
+    
+    .image-slider{
+        width: 100%;
+        height: 100%;
+    }
+
+    
+    .slider-details{
+        text-align: left;
+        width: 40%;
+        position: absolute;
+        top: 100px;
+        /* right: 900px; */
+    }
+    
+    .slider-details p{
+        font-size: 20px;
+    }
+    
+    .slider-details h1{
+        font-size: 40px;
+    }
+    
+
+}
+
+
+
+
+/* Medium Screens */
+@media (min-width:921px) and (max-width:1199px){
+    
+    .slider-details{
+        top: 100px;
+    }
+
+}
+
+
+
+
+/* Large Screens */
+@media (min-width:1200px){
+
+    
+
+}
